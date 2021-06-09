@@ -23,27 +23,27 @@ Berikut adalah **contoh syntax penulisan metode oop di php**. buat sebuah file d
 
 ![enter image description here](https://github.com/kameliacindy/Lab10Web/blob/main/img/mobil2.PNG)
 
-#### Penjelasan class Mobil
+### Penjelasan class Mobil
 
 Kita membuat sebuah **class** dengan nama **Mobil**. Pada sebuah bahasa pemrograman berorientasi objek mengharuskan kita untuk mendeklarasikan nama objek yang akan kita buat dengan menggunakan class Mobil, maka akan tercipta sebuah objek Mobil.
 
-#### Penjelasan private $warna
+### Penjelasan private $warna
 
  - Setelah class Mobil selanjutnya terdapat sebuah kode dengan nama `private $warna`, `private $merk`, `private $harga`
  - Dasarnya `private` dan `$warna` adalah sesuatu yang berbeda.
  - `private` adalah sifat atau tipe pada variable yang akan kita gunakan, dimana variable private untuk memberikan akses properti yang hanya dapat diakses dari dalam class tersebut. 
  - Sedangkan `$warna`, `$merk`, `$harga` adalah sebuah variable atau di dalam OOP disebut sebagai ***property***.
 
-#### Penjelasan public function __construct()
+### Penjelasan public function __construct()
 
 ***Method Construct*** adalah *method* yang dijalankan pertama kali pada saat sebuah class dijalankan. Jadi apabila kita menjalankan atau menginstansiasi sebuah class yang terdapat *method* atau *function construct* di dalamnya maka yang pertama kali dijalankan adalah *method construct* ini.
 
-#### Penjelasan $this->warna
+### Penjelasan $this->warna
 
  - **$this** adalah sebuah *keyword* atau kata kunci yang sudah tersedia di php sehingga kita tidak boleh menggunakan *keyword* tersebut untuk variable yang akan kita buat.
  - Fungsi **$this** ini digunakan sebagai penunjuk pada sebuah objek *property* yang nantinya akan dapat diakses pada *method* lain sehingga sifatnya tidak hanya digunakan pada suatu *method* yang mendeklarasikan *property* tersebut.
 
-#### Hasil Tampilannya
+### Hasil Tampilannya
 
 ![enter image description here](https://github.com/kameliacindy/Lab10Web/blob/main/img/ss_mobil.PNG)
 
@@ -57,7 +57,7 @@ Kita membuat sebuah **class** dengan nama **Mobil**. Pada sebuah bahasa pemrogra
 
 ![enter image description here](https://github.com/kameliacindy/Lab10Web/blob/main/img/form_input.PNG)
 
-#### Hasil Output form_input.php
+### Hasil Output form_input.php
 
 ![enter image description here](https://github.com/kameliacindy/Lab10Web/blob/main/img/ss_form_input.PNG)
 
